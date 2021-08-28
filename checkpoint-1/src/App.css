@@ -1,0 +1,257 @@
+
+body{
+    background-color: ghostwhite;
+    margin: 0;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+    margin-left: 1.5%;
+}
+
+.content__menu{
+    display: flex;
+    
+}
+
+button{
+    background-color: rgba(255, 255, 255, 0);
+    color: black;
+    border: 2px solid white;
+    border-radius: 10%; 
+
+}
+.s-saude{
+    font-weight: bold;
+}
+
+.site_content{
+   font-family: Arial, Helvetica, sans-serif;
+}
+.post__title{
+    color: #262626;
+    font-size:40px;
+    font-weight: 700;
+    line-height: 46px;
+
+}
+.post__excerpt{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+.row{
+    display: flex;
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+    padding-top: 2.5%;
+}
+
+.logoCNN{
+    float: right;
+    margin: 0;
+    position: static;
+    display: block;
+    width: 15%;
+    margin-bottom: 3%;
+
+}
+.p-one{
+    font-size: 18px; 
+    line-height: 28px; 
+    letter-spacing: .01em; 
+    color: #262626; 
+    font-weight:300;
+    clear: both;
+}
+
+
+
+.posts.col__list{
+    display: flex;
+}
+
+
+
+.author__image{
+    margin-left: 0;
+ 
+}
+
+.linkTXT{
+    color: blue;
+    text-decoration: underline;
+
+}
+
+.post__content{
+    margin-bottom: 15%;
+}
+
+
+@media screen and (min-width: 1201px){
+    .menu{
+        
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+        width: 100%;
+        align-items: center;
+        list-style-type: none;
+        
+    }
+    .logoCP{
+        height: 100%;
+        width: 52%;
+       
+        
+    }
+
+    .togglerMenu{
+        visibility: hidden;
+        
+    }
+
+    .logoEToggler{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px) and (min-width: 710px){
+    .menu{
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        width: 100%;
+        /* align-items: center; */
+        list-style-type: none;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    .logoCP{
+        height: 100%;
+        width: 40%;
+        margin-bottom: 3%;
+        margin-left: 15%;
+        
+    }
+    li{
+        font-size: 1.2em;
+        margin-bottom: 2%;
+        margin-left: 5%;
+        width: 90%;
+    }
+
+    .togglerMenu{
+        color: white;
+        font-size: 30px;
+        margin-top: 25%;
+        margin-bottom: 25%;
+        margin-left: 10%;
+        
+    }
+
+    .logoEToggler{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    
+    .sectionToggler{
+        flex-grow: 2;
+    }
+    
+    .sectionLogo{
+
+        flex-grow: 2;
+    
+    }
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 709px) {
+    .menu{
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        width: 100%;
+        align-items: flex-start;
+        padding-left: 1%;
+        padding-right: 1%;
+        
+    
+       
+    }
+    .logoCP{
+        height: 100%;
+        width: 100%;
+        margin-bottom: 3%;
+        
+       
+        
+    }
+    li{
+        margin-left: 0;
+        margin-left: 5%;
+        margin-bottom: 2%;
+        font-size: 1.2em;
+        width: 90%;
+        
+    }
+
+    .togglerMenu{
+        color: white;
+        font-size: 40px;
+        width: 100%;
+        margin-top: 90%;
+        
+    }
+
+    .logoEToggler{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 10%;
+        width: 100%;
+    }
+    
+    .sectionToggler{
+        flex-grow: 0.1;
+        padding-left: 4%;
+        
+       
+    }
+    
+    .sectionLogo{
+        flex-grow: 4;
+        padding-left: 3%;
+        padding-right: 15%;
+        
+    
+    }
+    
+    
+}
